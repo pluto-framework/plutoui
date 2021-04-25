@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Fast, Light, Small CSS Framework.">
+    <meta name="keywords" content="UI, CSS Framework">
+    <meta name="author" content="Pluto">
+    <title>Documentation - Pluto UI</title>
+    <link rel="stylesheet" href="https://res.cloudinary.com/dfep0loer/raw/upload/v1617964612/PlutoUI/pluto-typo-layout_nkrcoi.css">
+    <link rel="stylesheet" href="plutoui-main.css">
+    <link rel="stylesheet" href="plutoui-components.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="icon" href="pluto-icon.ico" type="icon type">
+</head>
+<body>
+ <section id="Title" style="text-align: center;">
+        <div class="the-box">
+            <div class="row" >
+                <div class="col">
+                    <h1 id="title-text" style="font-size: 4rem;">
+                       Documentation - Pluto UI
+                    </h1>
+                </div>
+                    
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h4 style="font-weight: 500;">
+                  
+                    </h4>
+                </div>
+            </div>
+
+            
+            <div class="row">
+                <div class="col">
+                  <img src="Pluto UI smol.png" class="img-fluid"alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col col-lp-12">
+                    <a class="start-buttons button button-blue button-lg" href="#layout" role="button"><i class="fas fa-th-large"></i> Layout</a>
+                    <a class="start-buttons button button-blue button-lg" href="#typography" role="button"><i class="fas fa-font"></i> Typography</a>
+                    <a class="start-buttons button button-blue button-lg" href="#components" role="button"><i class="fas fa-tools"></i> Components</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="layout">
+        <div class="the-box">
+ <div class="row">
+                <div class="col">
+                    <h2 style="font-weight: 700; font-size: 3rem;">Layout</h2>
+                </div>
+            </div>
+<br>
+            <div class="row">
+                <div class="col">
+                    <h3 style="font-weight: 600;">Breakpoints</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p style="font-weight: 400; font-size: 1.2rem;">The Breakpoints are the essential part of Responsive Web development thereby providing the understanding of various screen sizes.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Class Name</th>
+                                <th>Device</th>
+                                <th>Breakpoints</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th><code> .smb</code></th>
+                                <th><i class="fas fa-mobile p-3"></i>Small Mobile</th>
+                                <th>>575px</th>
+                            </tr>
+                            <tr>
+                                <th><code> .mb</code></th>
+                                <th><i class="fas fa-mobile  p-3"></i>Mobile</th>
+                                <th>>767px</th>
+                            </tr>
+                            <tr>
+                                <th><code> .tb</code></th>
+                                <th><i class="fas fa-tablet p-3"></i>Tablet</th>
+                                <th>>767px</th>
+                            </tr>
+                             <tr>
+                                <th><code> .lp</code></th>
+                                <th><i class="fas fa-laptop p-3"></i>Laptop</th>
+                                <th>>991px</th>
+                            </tr>
+                            <tr>
+                                <th><code> .dt</code></th>
+                                <th><i class="fas fa-desktop p-3"></i>Desktop</th>
+                                <th>>1199px</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+           
+<br>
+
+             <div class="row">
+                <div class="col">
+                    <h3 style="font-weight: 600;">The Box</h3>
+                </div>
+            </div>
+             <div class="row">
+                <div class="col">
+                    <p style="font-weight: 400; font-size: 1.2rem;">The Box are nothing but the <code>Containers</code> that is commonly used in CSS Responsive Frameworks. We rebranded it to give it a twist.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <table>
+                        <thead>
+                            <tr>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="align-left"><code>.the-box-dt</code></th>
+                                <th class="align-left">100%</th>
+                                <th class="align-left">100%</th>
+                                <th class="align-left">100%</th>
+                                <th class="align-left">100%</th>
+                                <th class="align-left">100%</th>
+                                <th class="align-left">1320px</th>
+                            </tr>
+                            <tr>
+                                <th class="align-left"><code>.the-box-lp</code></th>
+                                <th class="align-left">100%</th>
+                                <th class="align-left">100%</th>
+                                <th class="align-left">100%</th>
+                                <th class="align-left">100%</th>
+                                <th class="align-left">1140px</th>
+                                <th class="align-left">1320px</th>
+                            </tr>
+                            <tr>
+                                <th class="align-left"><code>.the-box-tb</code></th>
+                                <th class="align-left">100%</th>
+                                <th class="align-left">100%</th>
+                                <th class="align-left">100%</th>
+                                <th class="align-left">960px</th>
+                                <th class="align-left">1140px</th>
+                                <th class="align-left">1320px</th>
+                            </tr>
+                            <tr>
+                                <th class="align-left"><code>.the-box-mb</code></th>
+                                <th class="align-left">100%</th>
+                                <th class="align-left">100%</th>
+                                <th class="align-left">720px</th>
+                                <th class="align-left">960px</th>
+                                <th class="align-left">1140px</th>
+                                <th class="align-left">1320px</th>
+                            </tr>
+                             <tr>
+                                <th class="align-left"><code>.the-box-smb</code></th>
+                                <th class="align-left">100%</th>
+                                <th class="align-left">540px</th>
+                                <th class="align-left">720px</th>
+                                <th class="align-left">960px</th>
+                                <th class="align-left">1140px</th>
+                                <th class="align-left">1320px</th>
+                            </tr>
+                                <tr>
+                                <th class="align-left"><code>.the-box</code></th>
+                                <th class="align-left">100%</th>
+                                <th class="align-left">540px</th>
+                                <th class="align-left">720px</th>
+                                <th class="align-left">960px</th>
+                                <th class="align-left">1140px</th>
+                                <th class="align-left">1320px</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+<br>
+                
+            <div class="row">
+                <div class="col">
+                    <h3 style="font-weight: 600;">Griding</h3>
+                </div>
+            </div>
+             <div class="row">
+                <div class="col">
+                    <p style="font-weight: 400; font-size: 1.2rem;">Gridings in Pluto UI is adapted from <code>Flexbox Grids</code> to make the layout and scalabilty is maximized with the exisiting knowledge of flexbox.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p style="font-weight: 400; font-size: 1rem;">Normal Griding :</p>
+                </div>
+            </div>
+            <div class="row">
+    <div class="col col-smb-12 col-mb-6 col-tb-4 col-lp-3">
+        <div style="background:#23a7ff;height:40px;text-align:center;padding:8px;">
+            <span class="display-mb-down">.col-smb-12</span>
+            <span class="display-mb-to-tb">.col-mb-6</span>
+            <span class="display-tb-to-lp">.col-tb-4</span>
+            <span class="display-lp-up">.col-lp-3</span>
+        </div>
+    </div>
+    <div class="col col-smb-12 col-mb-6 col-tb-4 col-lp-3">
+        <div style="background:#23a7ff;height:40px;text-align:center;padding:8px;">
+            <span class="display-mb-down">.col-smb-12</span>
+            <span class="display-mb-to-tb">.col-mb-6</span>
+            <span class="display-tb-to-lp">.col-tb-4</span>
+            <span class="display-lp-up">.col-lp-3</span>
+        </div>
+    </div>
+     <div class="col col-smb-12 col-mb-12 col-tb-4 col-lp-3 display-mb-up">
+        <div style="background:#23a7ff;height:40px;text-align:center;padding:8px;">
+            <span class="display-mb-to-tb">.col-mb-12</span>
+            <span class="display-tb-to-lp">.col-tb-4</span>
+            <span class="display-lp-up">.col-lp-3</span>
+        </div>
+    </div>
+    <div class="col col-smb-12 col-mb-6 col-tb-6 col-lp-3 display-tb-up">
+        <div style="background:#23a7ff;height:40px;text-align:center;padding:8px;">
+            <span class="display-tb-to-lp">.col-tb-6</span>
+            <span class="display-lp-up">.col-lp-3</span>
+        </div>
+    </div>
+    <div class="col col-smb-12 col-mb-6 col-tb-6 col-lp-6 display-tb-up">
+        <div style="background:#23a7ff;height:40px;text-align:center;padding:8px;">
+            <span class="display-tb-to-lp">.col-tb-6</span>
+            <span class="display-lp-up">.col-lp-6</span>
+        </div>
+    </div>
+     <div class="col col-smb-12 col-mb-6 col-tb-4 col-lp-6 display-lp-up">
+        <div style="background:#23a7ff;height:40px;text-align:center;padding:8px;">
+            <span class="display-lp-up">.col-lp-6</span>
+        </div>
+    </div>
+</div>
+            <div class="row">
+                <div class="col">
+                    <p style="font-weight: 400; font-size: 1rem;">Offset Griding :</p>
+                </div>
+            </div>
+            <div class="row">
+    <div class="col col-mb-5">
+        <div style="background:#488fbe;height:40px;text-align:center;padding:8px;"> <span>.col-mb-5</span></div>
+    </div>
+    <div class="col col-mb-5 col-mb-offset-2">
+        <div style="background:#488fbe;height:40px;text-align:center;padding:8px;"><span>.col-mb-offset-2</span></div>
+    </div>
+    <div class="col">
+        <div style="background:#488fbe;height:40px;text-align:center;padding:8px;"><span>.col</span></div>
+    </div>
+</div>
+
+<br>
+
+<div class="row">
+                <div class="col">
+                    <h3 style="font-weight: 600;">Display</h3>
+                </div>
+            </div>
+<div class="row">
+                <div class="col">
+                    <p style="font-weight: 400; font-size: 1.2rem;">Display <code>.display </code>classes gives the user to control the content visibility across the breakpoints.</p>
+                </div>
+            </div>
+
+<div class="display-tb-down">
+    <p class="alert alert-red">I'm visible only on small devices.</p>
+</div>
+<div class="display-tb-to-lp">
+    <p class="alert alert-blue">I'm visible only on medium devices.</p>
+</div>
+<div class="display-lp-up">
+    <p class="alert alert-green">I'm visible only on large devices.</p>
+</div>
+
+<div class="row">
+    <div class="col">
+        <p style="font-weight: 400; font-size: 1rem;">Sample Code:</p>
+    </div>
+</div>
+
+<pre>
+<code class="hljs css language-html" style="padding-bottom: 3rem;  padding-left:3rem;">
+<span><</span><span class="tag">div</span><span class="selector"> class</span><span>=</span><span class="string">"display-tb-down"</span><span>></span>
+    <span><</span><span class="tag">p</span><span class="selector"> class</span><span>=</span><span class="string">"alert alert-red"</span><span>></span><span>I'm visible only on small devices.</span><span><</span><span>/</span><span class="tag">p</span><span>></span>
+<span><</span><span>/</span><span class="tag">div</span><span>></span>
+<span><</span><span class="tag">div</span><span class="selector"> class</span><span>=</span><span class="string">"display-tb-to-lp"</span><span>></span>
+    <span><</span><span class="tag">p</span><span class="selector"> class</span><span>=</span><span class="string">"alert alert-blue"</span><span>></span><span>I'm visible only on medium devices.</span><span><</span><span>/</span><span class="tag">p</span><span>></span>
+<span><</span><span>/</span><span class="tag">div</span><span>></span>
+<span><</span><span class="tag">div</span><span class="selector"> class</span><span>=</span><span class="string">"display-lp-up"</span><span>></span>
+    <span><</span><span class="tag">p</span><span class="selector"> class</span><span>=</span><span class="string">"alert alert-green"</span><span>></span><span>I'm visible only on large devices.</span><span><</span><span>/</span><span class="tag">p</span><span>></span>
+<span><</span><span>/</span><span class="tag">div</span><span>></span>
+</code>
+</pre>
+      
+<br>
+
+
+    </section>
+
+    <section id="typography" class="p-2">
+<div class="the-box">
+    <div class="row">
+                <div class="col">
+                    <h2 style="font-weight: 700; font-size: 3rem;">Typography</h2>
+                </div>
+    </div>
+<br>
+
+     
+            <div class="row">
+                <div class="col">
+                    <h3 style="font-weight: 600;">Header Tags</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p style="font-weight: 400; font-size: 1.2rem;">Pluto UI supports <code><</code><code>h1</code><code>></code> to <code><</code><code>h6</code><code>></code> tags with the inbuilt font family <code>Ubuntu</code> that has been loaded for Headings.</p>
+                </div>
+            </div>
+<div class="row">
+    <div class="col">
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    </div>
+</div>
+  
+    <div class="row">
+    <div class="col">
+        <p style="font-weight: 400; font-size: 1rem;">Code:</p>
+    </div>
+</div>
+
+<pre>
+<code class="hljs css language-html" style="padding-bottom: 3rem; padding-left:3rem;">
+<span><</span><span class="tag">h1</span><span>></span><span>Heading 1</span><span><</span><span>/</span><span class="tag">h1</span><span>></span>
+<span><</span><span class="tag">h2</span><span>></span><span>Heading 2</span><span><</span><span>/</span><span class="tag">h2</span><span>></span>
+<span><</span><span class="tag">h3</span><span>></span><span>Heading 3</span><span><</span><span>/</span><span class="tag">h3</span><span>></span>
+<span><</span><span class="tag">h4</span><span>></span><span>Heading 4</span><span><</span><span>/</span><span class="tag">h4</span><span>></span>
+<span><</span><span class="tag">h5</span><span>></span><span>Heading 5</span><span><</span><span>/</span><span class="tag">h5</span><span>></span>
+<span><</span><span class="tag">h6</span><span>></span><span>Heading 6</span><span><</span><span>/</span><span class="tag">h6</span><span>></span>        
+</code>
+</pre>
+
+
+<br>
+  <div class="row">
+                <div class="col">
+                    <h3 style="font-weight: 600;">Exhibit Header Tags</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p style="font-weight: 400; font-size: 1.2rem;">Pluto UI supports another type of Headings called <code>.exhibit</code> ranging from <code><</code><code>h1</code><code>></code> to <code><</code><code>h6</code><code>></code> tags with the font family <code>Montserrat</code>.</p>
+                </div>
+            </div>
+<div class="row">
+    <div class="col">
+    <h1 class="exhibit-1">Exhibit-1</h1>
+    <h2 class="exhibit-2">Exhibit-2</h2>
+    <h3 class="exhibit-3">Exhibit-3</h3>
+    <h4 class="exhibit-4">Exhibit-4</h4>
+    <h5 class="exhibit-5">Exhibit-5</h5>
+    <h6 class="exhibit-6">Exhibit-6</h6>
+    </div>
+</div>
+  
+    <div class="row">
+    <div class="col">
+        <p style="font-weight: 400; font-size: 1rem;">Code:</p>
+    </div>
+</div>
+
+<pre>
+<code class="hljs css language-html" style="padding-bottom: 3rem;  padding-left:3rem;">
+<span><</span><span class="tag">h1</span><span class="selector"> class</span><span>=</span><span class="string">exhibit-1</span><span>></span><span>Exhibit-1</span><span><</span><span>/</span><span class="tag">h1</span><span>></span>
+<span><</span><span class="tag">h2</span><span class="selector"> class</span><span>=</span><span class="string">exhibit-2</span><span>></span><span>Exhibit-2</span><span><</span><span>/</span><span class="tag">h2</span><span>></span>
+<span><</span><span class="tag">h3</span><span class="selector"> class</span><span>=</span><span class="string">exhibit-3</span><span>></span><span>Exhibit-3</span><span><</span><span>/</span><span class="tag">h3</span><span>></span>
+<span><</span><span class="tag">h4</span><span class="selector"> class</span><span>=</span><span class="string">exhibit-4</span><span>></span><span>Exhibit-4</span><span><</span><span>/</span><span class="tag">h4</span><span>></span>
+<span><</span><span class="tag">h5</span><span class="selector"> class</span><span>=</span><span class="string">exhibit-5</span><span>></span><span>Exhibit-5</span><span><</span><span>/</span><span class="tag">h5</span><span>></span>
+<span><</span><span class="tag">h6</span><span class="selector"> class</span><span>=</span><span class="string">exhibit-6</span><span>></span><span>Exhibit-6</span><span><</span><span>/</span><span class="tag">h6</span><span>></span>
+</code>
+</pre>
+
+<br>
+
+<div class="row">
+                <div class="col">
+                    <h3 style="font-weight: 600;">Paragraph</h3>
+                </div>
+            </div>
+
+ <div class="row">
+                <div class="col">
+                    <p style="font-weight: 400; font-size: 1.2rem;"><code>Paragraph</code> in Pluto UI is displayed in Font Family <code>Ubuntu</code>.</p>
+                </div>
+            </div>
+
+ <div class="row">
+                <div class="col">
+                    <p> Nam vestibulum tincidunt massa,
+        vitae feugiat ligula luctus nec. 
+        Cras volutpat lacus nec aliquam tincidunt.
+        Nunc posuere turpis non semper pharetra.
+        Phasellus convallis a turpis nec faucibus. 
+        Maecenas non venenatis mauris. 
+        Sed scelerisque fringilla bibendum.
+        Etiam nec mi neque.</p>
+                </div>
+            </div>
+
+<pre>
+<code class="hljs css language-html" style="padding-bottom: 3rem;  padding-left:3rem;">
+ <span><</span><span class="tag">p</span><span>></span><span>  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nam vestibulum tincidunt massa,
+        vitae feugiat ligula luctus nec. 
+        Cras volutpat lacus nec aliquam tincidunt.
+        Nunc posuere turpis non semper pharetra.
+        Phasellus convallis a turpis nec faucibus. 
+        Maecenas non venenatis mauris. 
+        Sed scelerisque fringilla bibendum.
+        Etiam nec mi neque.</span><span><</span><span>/</span><span class="tag">p</span><span>></span>
+</code>
+</pre>
+
+
+<br>
+
+<div class="row">
+                <div class="col">
+                    <h3 style="font-weight: 600;">Block Quotes</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p style="font-weight: 400; font-size: 1.2rem;">Blockquote in Pluto UI with The Quote <code>.blockquote</code> class & <code>.blockquote-footer</code> Person who said it.</p>
+                </div>
+            </div>
+ <div class="row">
+                <div class="col">              
+    <figure>
+        <blockquote class="blockquote">
+            <p>Stay Hungry, Stay Foolish.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            <cite title="Source Title">Steven Paul Jobs</cite>
+        </figcaption>
+    </figure>
+                </div>
+            </div>
+<pre>
+<code class="hljs css language-html" style="padding-bottom: 3rem;  padding-left:3rem;">
+<span><</span><span class="tag">figure</span><span>></span>
+    <span><</span><span class="tag">blockquote</span><span class="selector"> class</span><span>=</span><span class="string">"blockquote"</span><span>></span>
+        <span><</span><span class="tag">p</span><span>></span><span> Stay Hungry, Stay Foolish. </span><span><</span><span>/</span><span class="tag">p</span><span>></span>
+    <span><</span><span>/</span><span class="tag">blockquote</span><span>></span>
+    <span><</span><span class="tag">figcaption</span> <span class="selector">class</span><span>=</span><span class="string">"blockquote-footer"</span><span>></span>
+        <span><</span><span class="tag">cite</span><span class="selector"> title</span><span>=</span><span class="string">"Source Title"</span><span>></span><span> Steven Paul Jobs </span><span><</span><span>/</span><span class="tag">cite</span><span>></span>
+    <span><</span><span>/</span><span class="tag">figcaption</span><span>></span>
+<span><</span><span>/</span><span class="tag">figure</span><span>></span>
+       
+</code>
+</pre>
+</div>
+</div>
+<br>
+</section>
+
+<section id="components">
+<div class="the-box">
+   <div class="row">
+       <div class="col">
+           <h2 style="font-weight: 700; font-size: 3rem;">Components</h2>
+       </div>
+   </div>
+   <br>
+   <div class="row">
+       <div class="col">
+            <h3 style="font-weight: 600;">Alerts</h3>
+       </div>
+   </div>
+    <div class="row">
+       <div class="col">
+            <p style="font-weight: 400; font-size: 1.2rem;">Alerts provides feedback, a message that can be used to grab attention in the site. The following classes are present for Pluto <code>.alert</code>: </p>
+            <br>
+            <ul>
+                <li style="font-weight: 400; font-size: 1.1rem;"><code>.alert-pluto</code></li>
+                <li style="font-weight: 400; font-size: 1.1rem;"><code>.alert-red</code></li>
+                <li style="font-weight: 400; font-size: 1.1rem;"><code>.alert-blue</code></li>
+                <li style="font-weight: 400; font-size: 1.1rem;"><code>.alert-green</code></li>
+                <li style="font-weight: 400; font-size: 1.1rem;"><code>.alert-dark</code></li>
+            </ul>
+       </div>
+   </div>
+   <div class="row">
+       <div class="col">
+        <div>
+            <p class="alert alert-pluto">Heyyyy!! This is  .alert-pluto</p>
+        </div>
+<div>
+    <p class="alert alert-red">Heyyyy!! This is  .alert-red</p>
+</div>
+<div>
+    <p class="alert alert-blue">Heyyyy!! This is  .alert-blue</p>
+</div>
+<div>
+    <p class="alert alert-green">Heyyyy!! This is  .alert-green</p>
+</div>
+<div>
+    <p class="alert alert-dark">Heyyyy!! This is  .alert-dark</p>
+</div>
+       </div>
+   </div>
+
+<pre>
+<code class="hljs css language-html" style="padding-bottom: 3rem;  padding-left:3rem;">
+<span><</span><span class="tag">div</span><span>></span>
+    <span><</span><span class="tag">p</span><span class="selector"> class</span><span>=</span><span class="string">"alert alert-pluto"</span><span>></span><span>Heyyyy!! This is .alert-pluto</span><span><</span><span>/</span><span class="tag">p</span><span>></span>
+<span><</span><span>/</span><span class="tag">div</span><span>></span>      
+<span><</span><span class="tag">div</span><span>></span>
+    <span><</span><span class="tag">p</span><span class="selector"> class</span><span>=</span><span class="string">"alert alert-red"</span><span>></span><span>Heyyyy!! This is .alert-red</span><span><</span><span>/</span><span class="tag">p</span><span>></span>
+<span><</span><span>/</span><span class="tag">div</span><span>></span>    
+<span><</span><span class="tag">div</span><span>></span>
+    <span><</span><span class="tag">p</span><span class="selector"> class</span><span>=</span><span class="string">"alert alert-blue"</span><span>></span><span>Heyyyy!! This is .alert-blue</span><span><</span><span>/</span><span class="tag">p</span><span>></span>
+<span><</span><span>/</span><span class="tag">div</span><span>></span>      
+<span><</span><span class="tag">div</span><span>></span>
+    <span><</span><span class="tag">p</span><span class="selector"> class</span><span>=</span><span class="string">"alert alert-green"</span><span>></span><span>Heyyyy!! This is .alert-green</span><span><</span><span>/</span><span class="tag">p</span><span>></span>
+<span><</span><span>/</span><span class="tag">div</span><span>></span>    
+<span><</span><span class="tag">div</span><span>></span>
+    <span><</span><span class="tag">p</span><span class="selector"> class</span><span>=</span><span class="string">"alert alert-dark"</span><span>></span><span>Heyyyy!! This is .alert-dark</span><span><</span><span>/</span><span class="tag">p</span><span>></span>
+<span><</span><span>/</span><span class="tag">div</span><span>></span>          
+</code>
+</pre>
+
+<br>
+
+    <div class="row">
+       <div class="col">
+            <h3 style="font-weight: 600;">Buttons</h3>
+       </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <p style="font-weight: 400; font-size: 1.2rem;">There are <code>2 Sizes, 2 Styles & 6 Colored buttons</code> in Pluto UI. The users can mix & match between these styles, colors & sizes. The Common class is <code>.button</code></p>
+    </div>
+</div>
+<br>
+
+<div class="row">
+       <div class="col">
+            <h4 style="font-weight: 400;">Button Link:</h4>
+       </div>
+</div>
+<div class="row">
+    <div class="col">
+          <button class="button button-lg button-link demo-buttons">.button-link</button>
+          <button class="button button-lg button-link disabled demo-buttons">.button-link.disabled</button>
+<pre>
+<code class="hljs css language-html" style="padding-bottom: 3rem;  padding-left:3rem;">
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-lg button-link"</span><span>></span>.button-link<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-lg button-link disabled"</span><span>></span>.button-link.disabled<span><</span><span>/</span><span class="tag">button</span><span>></span>
+
+</code>
+</pre>
+    </div>
+</div>
+
+
+
+  <div class="row">
+       <div class="col">
+            <h4 style="font-weight: 400;">Button Sizes:</h4>
+       </div>
+</div>
+<div class="row">
+    <div class="col">
+        <p style="font-weight: 400; font-size: 1.2rem;">There are two sizes <code>.button</code> (Normal) & <code>.button-lg</code> (Large)</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <button class="button button-lg button-blue demo-buttons">.button-lg</button>
+        <button class="button button-blue demo-buttons">.button</button>
+        <button class="button button-lg button-red demo-buttons">.button-lg</button>
+        <button class="button button-red demo-buttons">.button</button>
+        <button class="button button-lg button-green demo-buttons">.button-lg</button>
+        <button class="button button-green demo-buttons">.button</button>
+    </div>
+</div>
+<pre>
+<code class="hljs css language-html" style="padding-bottom: 3rem;  padding-left:3rem;">
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-lg button-blue"</span><span>></span>.button-lg<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-blue"</span><span>></span>.button<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-lg button-red"</span><span>></span>.button-lg<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-red"</span><span>></span>.button<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-lg button-green"</span><span>></span>.button-lg<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-green"</span><span>></span>.button<span><</span><span>/</span><span class="tag">button</span><span>></span>
+</code>
+</pre>
+
+  <div class="row">
+       <div class="col">
+            <h4 style="font-weight: 400;">Button Styles:</h4>
+       </div>
+  </div>
+  <div class="row">
+    <div class="col">
+        <p style="font-weight: 400; font-size: 1.2rem;">There are two styles <code>.button-color</code> (Normal) & <code>.button-outline-color</code> (Outlined)</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <button class="button button-dark demo-buttons">.button-dark</button>
+        <button class="button button-light demo-buttons">.button-light</button>
+        <button class="button button-red demo-buttons">.button-red</button>
+        <button class="button button-blue demo-buttons">.button-blue</button>
+        <button class="button button-green demo-buttons">.button-green</button>
+        <button class="button button-pluto demo-buttons">.button-pluto</button>
+        <button class="button button-outline-dark demo-buttons">.button-outline-dark</button>
+        <button class="button button-outline-light demo-buttons">.button-outline-light</button>
+        <button class="button button-outline-red demo-buttons">.button-outline-red</button>
+        <button class="button button-outline-blue demo-buttons">.button-outline-blue</button>
+        <button class="button button-outline-green demo-buttons">.button-outline-green</button>
+        <button class="button button-outline-pluto demo-buttons">.button-outline-pluto</button>
+        
+        <pre>
+<code class="hljs css language-html" style="padding-bottom: 3rem;  padding-left:3rem;">
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-dark"</span><span>></span>.button-dark<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-light"</span><span>></span>.button-light<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-red"</span><span>></span>.button-red<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-blue"</span><span>></span>.button-blue<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-green"</span><span>></span>.button-green<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-pluto"</span><span>></span>.button-pluto<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-outline-dark"</span><span>></span>.button-outline-dark<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-outline-light"</span><span>></span>.button-outline-light<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-outline-red"</span><span>></span>.button-outline-red<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-outline-blue"</span><span>></span>.button-outline-blue<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-outline-green"</span><span>></span>.button-outline-green<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-outline-pluto"</span><span>></span>.button-outline-pluto<span><</span><span>/</span><span class="tag">button</span><span>></span>
+
+
+</code>
+</pre>
+    </div>
+</div>
+
+<div class="row">
+       <div class="col">
+            <h4 style="font-weight: 400;">Button Colors:</h4>
+       </div>
+  </div>
+<div class="row">
+    <div class="col">
+        <p style="font-weight: 400; font-size: 1.2rem;">There are Six colors <code>.button-dark</code>, <code>.button-light</code>, <code>.button-blue</code>, <code>.button-red</code>, <code>.button-green</code>, <code>.button-pluto</code></p>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+         <button class="button button-dark demo-buttons">.button-dark</button>
+        <button class="button button-light demo-buttons">.button-light</button>
+        <button class="button button-red demo-buttons">.button-red</button>
+        <button class="button button-blue demo-buttons">.button-blue</button>
+        <button class="button button-green demo-buttons">.button-green</button>
+        <button class="button button-pluto demo-buttons">.button-pluto</button>
+<pre>
+<code class="hljs css language-html" style="padding-bottom: 3rem;  padding-left:3rem;">
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-dark"</span><span>></span>.button-dark<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-light"</span><span>></span>.button-light<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-red"</span><span>></span>.button-red<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-blue"</span><span>></span>.button-blue<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-green"</span><span>></span>.button-green<span><</span><span>/</span><span class="tag">button</span><span>></span>
+<span><</span><span class="tag">button</span><span class="selector"> class</span><span>=</span><span class="string">"button button-pluto"</span><span>></span>.button-pluto<span><</span><span>/</span><span class="tag">button</span><span>></span>
+</code>
+</pre>
+    </div>
+</div>
+
+<br>
+
+<div class="row">
+    <div class="col">
+        <h3 style="font-weight: 600;">Breadcrumbs</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <p style="font-weight: 400; font-size: 1.2rem;">Breadcrumbs are nothing but the location marker in a website containing several webpages & it doesn't ends with this. <code>.breadcrumb</code></p>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home Page</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home Page</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Product List</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Product List</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Product</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Product List</a></li>
+    <li class="breadcrumb-item"><a href="#">Product</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Payment</li>   
+  </ol>
+</nav>
+<pre>
+<code class="hljs css language-html" style="padding-bottom: 3rem;  padding-left:3rem;">
+<span><</span><span class="tag">nav</span><span class="selector"> aria-label</span><span>=</span><span class="string">"breadcrumb"</span><span>></span>
+    <span><</span><span class="tag">ol</span><span class="selector"> class</span><span>=</span><span class="string">"breadcrumb"</span><span>></span>
+        <span><</span><span class="tag">li</span><span class="selector"> class</span><span>=</span><span class="string">"breadcrumb-item"</span><span>></span><span><</span><span>a</span><span class="selector"> href</span><span>=</span><span class="string">"#"</span><span>></span>Product List<span></span>
+</code>
+</pre>
+
+    </div>
+</div>
+
+
+
+
+
+</section>
+
+    <section id="footer">
+<div class="the-box align-center">
+    <footer class="pluto-footer">
+        <div class="row">
+            <div class="col">
+                <a href="" role="button" class="p-3"><i class="fab fa-2x fa-linkedin"></i></a>
+                <a href="https://github.com/pluto-framework/plutoui" role="button" class="p-3"><i class="fab fa-2x fa-github"></i></a>
+                <a href="https://twitter.com/PlutoUi" role="button" class="p-3"><i class="fab fa-2x fa-twitter"></i></a>
+                <a href="" role="button" class="p-3"><i class="fas fa-2x fa-envelope"></i></a>
+            </div>
+        </div>
+          <div class="row">
+            <div class="col">
+             <p style="color: #c6e2fa; size: 10px;">Pluto UI - April 2021 - Version 0.1</p>
+            </div>
+        </div>
+    </footer>
+</div>
+</section>
+    
+
+<script src="index.js"></script>
+</body>
+</html>

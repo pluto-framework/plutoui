@@ -45,7 +45,7 @@ width: 100%;
 span{
    font-weight: 500;
    font-family: 'Courier Prime',monospace;
-
+   font-size: 0.9rem;
 }
 .tag{
   color: #006FFF;
